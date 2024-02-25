@@ -1,12 +1,13 @@
-void setup() {
-  // put your setup code here, to run once:
-pinMode(6,OUTPUT);
+int led=6;  //declaring pin 6 of board with name LED
+void setup() //Setup Loop
+{
+pinMode(6,OUTPUT); //Declaring pin6 of Arduiono BOaed as OUTPUT
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-digitalWrite(6,HIGH);
-delay(1000);
-digitalWrite(6,LOW);
-delay(1000);
+digitalWrite(led,HIGH);  //Making Pin 6 HIGH
+delay(1000);             //Delay of 1 sec
+digitalWrite(led,LOW);     //Making Pin 6 HIGH
+delay(1000);             //Delay of 1 sec
 }
