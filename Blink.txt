@@ -1,7 +1,7 @@
 int led=6;  //declaring pin 6 of board with name LED
 void setup() //Setup Loop
 {
-pinMode(6,OUTPUT); //Declaring pin6 of Arduiono BOaed as OUTPUT
+pinMode(6,OUTPUT); //Declaring pin 6 of Arduiono Board as OUTPUT
 }
 
 void loop() {
